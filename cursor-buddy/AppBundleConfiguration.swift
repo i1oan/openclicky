@@ -68,7 +68,7 @@ nonisolated enum AppBundleConfiguration {
     /// When true (default), sample only while the primary mouse button is dragged during PTT hold.
     /// When false, any mouse movement while holding the key draws.
     static let userCircleWhileTalkingRequireClickDefaultsKey = "openClickyCircleWhileTalkingRequireClick"
-    static let appGroupIdentifier = "group.com.jkneen.openclicky"
+    static let appGroupIdentifier = "group.com.i1oan.openclicky"
 
     static func registerDefaults() {
         UserDefaults.standard.register(defaults: [
